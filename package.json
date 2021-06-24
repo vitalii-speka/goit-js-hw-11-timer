@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /goit-js-hw-11-timer/",
+    "build": "parcel build src/index.html --public-url /js-timer/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitalii-speka/goit-js-hw-11-timer.git"
+    "url": "git+https://github.com/vitalii-speka/js-timer"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/luxplanjay/parcel-deploy-tutorial/issues"
   },
-  "homepage": "https://vitalii-speka.github.io/goit-js-hw-11-timer/",
+  "homepage": "https://github.com/vitalii-speka/js-timer",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-nuke-dist": "^1.0.1"
